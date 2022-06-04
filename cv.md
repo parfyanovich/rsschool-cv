@@ -14,3 +14,23 @@
 * Git, GitHub
 * VS Code
 * Chrome DevTools
+### Code example
+#### *JavaScript:*
+```
+function multiply(a, b){
+return  a * b
+}
+```
+### Place of work
+* branch office "AP"№6 JSC "Gomeloblavtotrans"
+### Education
+* Magistr Belarusian State University of Transport, Gomel
+* Bachelor Belarusian State University of Transport, Gomel
+* Gomel State Road Construction College, Gomel
+* Student Secondary school number 15, Gomel
+#### *Courses*
+* English
+### Languages
+* English - A2
+* Russian - Native
+* Belorussian - Native
