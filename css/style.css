@@ -11,9 +11,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items:center;
-    background-image: url(/img/gomer\ simpson.jpeg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-color: cornflowerblue;
 }
 .name{
     margin: 30px 0px 30px 100px;
@@ -38,4 +36,15 @@ nav ul li{
 }
 nav ul li:hover{
     color:burlywood;
+}
+.main{
+    background-image: url(/img/gomer\ simpson.jpeg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color:cornflowerblue;
 }
