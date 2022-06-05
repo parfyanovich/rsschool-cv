@@ -40,11 +40,29 @@ nav ul li:hover{
 .main{
     background-image: url(/img/gomer\ simpson.jpeg);
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 35%;
+    background-position: center;
+    background-color:deepskyblue;
+}
+.article1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: blanchedalmond;
+    padding: 30px 0px;
+}
+.article2{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: blanchedalmond;
 }
 .footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items:center;
     background-color:cornflowerblue;
+    padding: 30px 0px;
 }
