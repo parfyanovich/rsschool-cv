@@ -13,20 +13,25 @@
         <div class="name">Pavel Parfyanovich</div>
         <nav>
             <ul class="nav">
-                <li><About href="#">About me</a></li>
-                <li><Contacts href="#">Contacts</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#contacts">Contacts</a></li>
             </ul>
         </nav>
     </header>
     <main class="main">
         <section>
             <article class="article1">
-                <h1>About me</h1>
-                <p>Hello everyone, at the moment I am actively studying front-end technologies</p>
-                <p>and in the future I am going to develop in this area of professional activity</p>
+                <div><img src="/img/gomer simpson.jpeg" alt="Gomer Simpson" width="300px"></div>
+                <div>
+                    <p>Hello everyone, at the moment I am</p>
+                    <p>actively studying front-end technologies</p>
+                    <p>and in the future I am going to develop</p>
+                    <p>in this area of professional activity</p>
+                </div>
             </article>
             <article class="article2">
-                <h3>Skills and knowledges</h3>
+                <h1 class="content" id="about">About me</h1>
+                <h2>Skills and knowledges</h2>
                 <ul>
                     <li>HTML5</li>
                     <li>CSS3</li>
@@ -44,22 +49,22 @@
                     </code>
                 </pre>
             </article>
-            <article>
-                <h3>Place of work</h3>
+            <article class="article3">
+                <h2>Place of work</h2>
                 <p>branch office "AP"№6 JSC "Gomeloblavtotrans"</p>
-                <h3>Education</h3>
+                <h2>Education</h2>
                 <ul>
                    <li>Magistr Belarusian State University of Transport, Gomel</li>
                    <li>Bachelor Belarusian State University of Transport, Gomel</li>
                    <li>Gomel State Road Construction College, Gomel</li>
                    <li>Student Secondary school number 15, Gomel</li>
                 </ul>
-                <h3>Courses</h3>
+                <h2>Courses</h2>
                 <ul>
                    <li>English</li>
                    <li>The Rolling Scopes School</li>
                 </ul>
-                <h3>Languages</h3>
+                <h2>Languages</h2>
                 <ul>
                    <li>English - A2</li>
                    <li>Russian - Native</li>
@@ -68,19 +73,21 @@
             </article>
             </section>
             <section>
-                <h3>Contact information</h3>
-                <ul>
-                    <li>Phone : +375251234567</li>
-                    <li>Email: parfyanovichpavel@gmail.com</li>
-                    <li>Country: Belarus</li>
-                    <li>City: Gomel</li>
-                  </ul>
+                <article class="article4">
+                    <h2 id="contacts">Contact information</h2>
+                    <ul>
+                        <li>Phone : +375251234567</li>
+                        <li>Email: parfyanovichpavel@gmail.com</li>
+                        <li>Country: Belarus</li>
+                        <li>City: Gomel</li>
+                      </ul>
+                </article>
             </section>
     </main>
     <footer class="footer">
-        <a href="https://github.com/parfyanovich"><img src="/img/gh.png" width="100px" height="60px"></a>
-        <div>© 2022г. Gomer Simpson</div>
-        <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" width="100px"></a>
+        <a href="https://github.com/parfyanovich"><img src="/img/gh.png" alt="Github" width="100px" height="60px"></a>
+        <div class="date">© 2022г. Gomer Simpson</div>
+        <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool" width="100px"></a>
     </footer>
 </body>
 </html>
