@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color:midnightblue;
+}
+.name{
+    margin: 30px 0px 30px 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color:chocolate;
+    font-style: italic;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-right: 100px;
+}
+nav ul li{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+nav ul a:hover{
+    color:chocolate;
+}
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.main{
+    background-color:darkslateblue;
+}
+li{
+    list-style: none;
+    color:darkgrey;
+}
+.article1{
+    background-color:mediumslateblue;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+    color: blanchedalmond;
+    padding: 50px 0px;
+}
+.content{
+    text-align: center;
+    margin: 100px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    color:blanchedalmond;
+}
+.maincontent{
+    display: flex;
+    justify-content: space-around;
+}
+.article2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: blanchedalmond;
+}
+.skill{
+    margin-bottom: 30px;
+}
+.code{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+h4{
+    color:darkgray;
+}
+pre{
+    color:darkgray;
+    text-align: left;
+    margin-left: -175px;
+}
+.article3{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: blanchedalmond;
+}
+.work{
+    color:darkgray;
+}
+.article4{
+    text-align: center;
+    background-color:mediumslateblue;
+    padding: 100px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: blanchedalmond;
+}
+#contacts{
+    margin-bottom: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color:midnightblue;
+    padding: 30px 0px;
+}
+.date{
+    color:blanchedalmond;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: italic;
+}
