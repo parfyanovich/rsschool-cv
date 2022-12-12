@@ -41,3 +41,78 @@ a{
     text-decoration: none;
     color: blanchedalmond;
 }
+.main{
+    background-color:darkslateblue;
+}
+li{
+    list-style: none;
+    color:darkgrey;
+}
+.article1{
+    background-color:mediumslateblue;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+    color: blanchedalmond;
+    padding: 50px 0px;
+}
+.content{
+    text-align: center;
+    margin: 100px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    color:blanchedalmond;
+}
+.maincontent{
+    display: flex;
+    justify-content: space-around;
+}
+.article2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: blanchedalmond;
+}
+.skill{
+    margin-bottom: 30px;
+}
+.code{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+h4{
+    color:darkgray;
+}
+pre{
+    color:darkgray;
+    text-align: left;
+    margin-left: -175px;
+}
+.article3{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: blanchedalmond;
+}
+.work{
+    color:darkgray;
+}
+.article4{
+    text-align: center;
+    background-color:mediumslateblue;
+    padding: 100px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: blanchedalmond;
+}
+#contacts{
+    margin-bottom: 30px;
+}
